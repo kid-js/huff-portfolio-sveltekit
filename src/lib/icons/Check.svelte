@@ -1,0 +1,1 @@
+<img class="package-icon" src="icons/check.svg" alt="Check Icon">

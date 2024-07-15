@@ -1,0 +1,32 @@
+{
+	"name": "huff-portfolio-sveltekit",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint --ext .js,.svelte src"
+	},
+	"browserslist": [
+		"defaults",
+		">0.3%",
+		"not dead"
+	],
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^5.2.0",
+		"@sveltejs/adapter-static": "^3.0.2",
+		"@sveltejs/kit": "^2.5.18",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"eslint": "^9.6.0",
+		"eslint-plugin-svelte": "^2.41.0",
+		"postcss": "^8.4.39",
+		"postcss-preset-env": "^9.6.0",
+		"postcss-replace-string": "^1.0.0",
+		"postcss-sort-media-queries": "^5.2.0",
+		"svelte": "^5.0.0-next.173",
+		"vite": "^5.3.3",
+		"vite-plugin-clean-css": "^0.0.3"
+	},
+	"type": "module"
+}

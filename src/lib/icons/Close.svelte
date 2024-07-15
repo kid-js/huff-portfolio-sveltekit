@@ -1,0 +1,1 @@
+<img class="package-icon" src="icons/close.svg" alt="Cross Icon">
