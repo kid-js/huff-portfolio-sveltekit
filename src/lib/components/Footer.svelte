@@ -23,7 +23,14 @@
         </ul>
 
         <p class="footer__copyright">
-            &#169; Jonnas Huff, full-stack developer
+            &#169; Jonnas Huff, full-stack developer ·
+            <a
+                href="https://github.com/kid-js/huff-portfolio-sveltekit"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
         </p>
     </div>
 </footer>
@@ -55,6 +62,7 @@
     }
 
     .footer__copyright {
+        text-align: center;
         font-size: 14px;
         padding: 12px 0 24px;
         opacity: 0.5;
