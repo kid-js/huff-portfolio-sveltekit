@@ -4,11 +4,11 @@
 
 <footer class="footer">
     <div class="wrapper wrapper_footer">
-        <header class="footer__header">
+        <div class="footer__header">
             <h3 class="footer__title">
                 <span class="accent-text-title">Connect</span> with me
             </h3>
-        </header>
+        </div>
 
         <ul class="footer__links" id="contact">
             <li class="footer__link">

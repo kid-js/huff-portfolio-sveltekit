@@ -55,6 +55,9 @@
                         img/profile-small.avif 800w,
                         img/profile-medium.avif 1000w,
                         img/profile-large.avif 1200w"
+                    sizes="
+                        (max-width: 959px) 345px,
+                        (min-width: 960px) 1200px"
                 />
                 <source type="image/avif" srcset="img/profile-large.avif" />
                 <source type="image/webp" srcset="img/profile.webp" />
