@@ -4,7 +4,7 @@
 
 <svelte:options runes={true} />
 
-<div class="card" href="{step.link}">
+<div class="card">
     <picture>
         <source type="image/avif" srcset="img/{step.logo}.avif" />
         <source type="image/webp" srcset="img/{step.logo}.webp" />
@@ -12,7 +12,7 @@
             class="card__logo"
             src="img/{step.logo}.jpg"
             alt="{step.name} Logo"
-            width="116px" height="116px"
+            width="116" height="116"
         />
     </picture>
 
