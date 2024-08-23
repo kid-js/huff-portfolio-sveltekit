@@ -1,0 +1,1 @@
+import{h as o,i as h,j as l}from"./runtime.Md8Mf2Z3.js";import{e as m,g as e,i as s,j as d,k as g}from"./disclose-version.BLTC9XYN.js";function b(f,i,_,c){var r="",t;o(()=>{r!==(r=i())&&(t&&(l(t),t=null),r!==""&&(t=h(()=>{if(m){e(d(),s[s.length-1]);return}var n=r+"",a=g(n);e(a.firstChild,a.lastChild),f.before(a)})))})}export{b as h};

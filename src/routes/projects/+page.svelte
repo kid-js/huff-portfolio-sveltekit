@@ -1,6 +1,5 @@
 <script>
     import Step from './../../lib/components/Step.svelte';
-	import Play from './../../lib/icons/Play.svelte';
 
     const steps = [
         {   name: 'Kojo Website',

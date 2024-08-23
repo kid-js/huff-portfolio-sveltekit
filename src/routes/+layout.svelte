@@ -3,7 +3,6 @@
 
 	import Header from './../lib/components/Header.svelte';
 	import Footer from './../lib/components/Footer.svelte';
-	import ArrowUp from './../lib/icons/Arrow-up.svelte';
 
     let isPageScrolled = $state(false);
 
