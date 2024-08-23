@@ -7,9 +7,27 @@
 
     const options = animationsOptions.contactTitle;
     const accentTitle = throttle(animateTitle.bind({}, options), options.delay);
+
+    const buttonText = 'Get in touch &rarr;'
 </script>
 
 <svelte:head>
+    <link
+        rel="preload"
+        as="image"
+        imagesrcset="
+            img/profile-small.avif 800w,
+            img/profile-medium.avif 1000w,
+            img/profile-large.avif 1200w"
+        imagesizes="(max-width: 959px) 345px, (min-width: 960px) 1200px"
+        media="(-webkit-min-device-pixel-ratio: 1.5)"
+    >
+    <link
+        rel="preload"
+        as="image"
+        href="img/profile-large.avif"
+        media="(-webkit-max-device-pixel-ratio: 1.4)"
+    >
     <meta name="description" content="Jonnas Huff - Full-stack developer">
     <title>Jonnas Huff</title>
 </svelte:head>
@@ -36,11 +54,9 @@
                     href="#contact"
                     onclick={accentTitle}
                 >
-                    <span class="button__text">
-                        Get in touch &rarr;
-                    </span>
+                    <span class="button__text"> {@html buttonText} </span>
                     <span class="button__hover button__hover_large">
-                        Get in touch &rarr;
+                        {@html buttonText}
                     </span>
                 </a>
             </div>
@@ -66,7 +82,3 @@
         </div>
     </div> <!-- end of div "wrapper" -->
 </section> <!-- end of section "hero" -->
-
-<style>
-
-</style>

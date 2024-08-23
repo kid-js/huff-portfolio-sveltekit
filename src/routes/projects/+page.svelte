@@ -48,7 +48,11 @@
             <div class="projects__video">
                 <a class="button button_main button_large" href="#!">
                     <div class="button-wrapper">
-                        <span class="button__icon"> <Play /> </span>
+                        <span class="button__icon">
+                            <svg viewBox="0 0 286.054 286.054">
+                                <use href="/icons/icons-set.svg#play"></use>
+                            </svg>
+                        </span>
                         <span class="button__text"> Watch the video </span>
                     </div>
                     <span class="button__hover button__hover_border"></span>

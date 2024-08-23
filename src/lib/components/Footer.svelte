@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <footer class="footer">
     <div class="wrapper wrapper_footer">
         <div class="footer__header">

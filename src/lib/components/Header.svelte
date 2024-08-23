@@ -58,7 +58,3 @@
         </a>
     </div>
 </header>
-
-<style>
-
-</style>

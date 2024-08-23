@@ -1,1 +1,0 @@
-const n=({targetClassName:o="",className:t="",delay:e=0})=>{const s=document.querySelector("."+o);s.classList.add(t),setTimeout(()=>s.classList.remove(t),e)},c={contactTitle:{targetClassName:"footer__title",className:"shadowed",delay:2e3}},l=(o=()=>{},t=0)=>{let e=0;return function(){const s=this,a=new Date().getTime();a-e>=t&&(o.apply(s),e=a)}};export{c as a,n as s,l as t};

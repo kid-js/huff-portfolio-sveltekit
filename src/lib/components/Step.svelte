@@ -11,6 +11,7 @@
         <img
             class="card__logo"
             src="img/{step.logo}.jpg"
+            loading="lazy"
             alt="{step.name} Logo"
             width="116" height="116"
         />
