@@ -12,14 +12,27 @@
 
         if (!toTopButton || !observerTarget) { return; }
 
+        let minDistance = 215;
+        let maxParticles = 30;
+        const width = document.body.offsetWidth;
+
+        if (width < 960) {
+            minDistance = 165;
+            maxParticles = 19;
+        }
+        else if (width > 1600) {
+            minDistance = 265;
+            maxParticles = 36;
+        }
+
         const particles = Particles.init({ // eslint-disable-line no-undef
             selector: '.particles-bg',
             color: ['#9290C3', '#836FFF'],
             connectParticles: true,
             sizeVariations: 2,
-            minDistance: 205,
-            maxParticles: 30,
             speed: 0.275,
+            maxParticles,
+            minDistance,
         });
 
         const callback = (entries) => {
